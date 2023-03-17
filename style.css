@@ -39,14 +39,15 @@ body>footer{
     margin: auto;
     padding: 10px;
     border: 1px solid black;
-    width: 600px;
+    width: 500px;
     height: 130px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 30px;
 }
 
 .baixar{
-    padding-left: 230px;
+    padding-left: 200px;
     text-decoration: none;
     font-size: 2em;
     color: Red;
