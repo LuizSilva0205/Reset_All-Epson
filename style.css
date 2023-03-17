@@ -4,15 +4,85 @@
     padding: 0;
 }
 
-header{
-    background-color: aliceblue;
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+
+   
+
+body>header{
+    background-color: rgb(46, 74, 202);
+    padding: 50px;
+}
+
+body>header>h1{
+    text-align: center;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-bottom: 30px;
+}
+
+body>header>h2{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 0.9em;
 }
 
 
-main{
-    background-color: aquamarine;
+body>footer{
+    background-color: rgb(32, 90, 167);
 }
 
+.caixabaixarreset{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+    width: 600px;
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.baixar{
+    padding-left: 230px;
+    text-decoration: none;
+    font-size: 2em;
+    color: Red;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: bolder;
+}
+
+.baixar:hover{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Golos Text', sans-serif;
+    text-shadow: 3px 3px 3px black;
+}
+
+.nome_impressora{
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(0, 17, 255);
+    font-family: 'Golos Text', sans-serif;
+
+}
+
+.detalhes{
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Golos Text', sans-serif;
+
+}
 footer{
-    background-color: blueviolet;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.274);
+    font-family: 'Golos Text', sans-serif;
+    color: white;
+    font-size: 0.9em;
+
 }
